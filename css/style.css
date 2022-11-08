@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-Slides {
+    width: 100%;
+    height: 400px;
+    background-color: green;
+    margin-left: 7px;
+    position: relative;
+}
+.img-Slides {
+    width: 95%;
+    height: 400px;
+    background-color: black;
+    margin-left: 7px;
+    position: relative;
+}
+.img-Slides .slide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+}
+.doted {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+.doted .dot1 {
+    width: 20px;
+    height: 20px;
+    background-color: #dedede;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.doted .dactive {
+    background-color: black;
+}
+.next , .prev {
+    position: absolute;
+    padding: 10px;
+    z-index: 2;
+    top: 6.2%; left: 0;
+    text-decoration: none;
+    font-size: 50px;
+    color: #dedede;
+}
+.prev {
+    margin: 150px 1250px 0;
+}
+.next {
+    margin-top: 150px;
+}
